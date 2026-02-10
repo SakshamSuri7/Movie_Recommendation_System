@@ -3,8 +3,6 @@ import pickle
 import requests
 
 
-#To get API key ---> saksham816 lm@10 sakshamsuri07@gmail.com
-
 def fetch_poster(movie_id):
     url = "https://api.themoviedb.org/3/movie/{}?api_key=6708be64dd4d1568e1529c0126bc075b&language=en-US".format(movie_id)
     data = requests.get(url).json()
@@ -70,3 +68,4 @@ if st.button("Recommend"):
     with col5:
         st.text(names[4])
         st.image(posters[4])
+
