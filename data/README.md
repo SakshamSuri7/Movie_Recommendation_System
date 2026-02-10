@@ -6,6 +6,9 @@ Download from Kaggle:
 https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 
 
-data/
- ├── tmdb_5000_movies.csv
- └── tmdb_5000_credits.csv
+
+TMDB 5000 Movie Dataset :
+
+ data/tmdb_5000_movies.csv
+ 
+ data/tmdb_5000_credits.csv
